@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Oficina dev. Web: Bootstrap</title>
+    <link href="_bootstrap/css/bootstrap.min.css" rel="stylesheet"> 
+    <style>
+		/* sobrescrever cores default boostrap */
+        .table-striped > tbody > tr { 
+            background-color: #CCC; 
+        }
+        
+        .table-hover > tbody > tr:hover {
+            background-color: #333;
+            color: #FFF;
+        }
+    </style>
+</head>
+<body>
+
+	<div class="container">
+	    <div class="col-md-6 col-md-offset-3">
+		    <div class="table-responsive">
+		    	<table class="table table-striped table-hover"> 
+			        <thead>
+			            <tr>
+			                <th>Protocolo</th>
+			                <th>Razão Social</th>
+			                <th>CNPJ</th>
+			            </tr>
+			        </thead>
+			        <tbody>
+			            <tr class="danger"> <!-- sucess, warning, active... -->
+			                <td>0001</td>
+			                <td>Ofica dev. Web: Bootstrap</td>
+			                <td>00.000.000/0001-00</td>
+			            </tr>
+			            <tr>
+			                <td>0002</td>
+			                <td>Ofica dev. Web: Bootstrap</td>
+			                <td>00.000.000/0002-00</td>
+			            </tr>
+			            <tr>
+			                <td>0003</td>
+			                <td>Ofica dev. Web: Bootstrap</td>
+			                <td>00.000.000/0003-00</td>
+			            </tr>    
+			            <tr>
+			                <td>0004</td>
+			                <td>Ofica dev. Web: Bootstrap</td>
+			                <td>00.000.000/0004-00</td>
+			            </tr>
+			            <tr>
+			                <td>0005</td>
+			                <td>Ofica dev. Web: Bootstrap</td>
+			                <td>00.000.000/0005-00</td>
+			            </tr>                      
+			        </tbody>
+		    	</table>
+		    </div> <!-- ./table-responsive -->
+	    </div> <!-- ./col-md -->
+	</div> <!-- ./container -->
+
+    <script src="_js/jquery.min.js"></script> 
+    <script src="_bootstrap/js/bootstrap.min.js"></script> 
+    
+</body>
+</html>

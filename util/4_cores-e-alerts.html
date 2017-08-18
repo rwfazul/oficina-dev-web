@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Oficina dev. Web: Bootstrap</title>
+	<link href="_bootstrap/css/bootstrap.min.css" rel="stylesheet">  <!-- Bootstrap Core CSS -->
+</head>
+<body>
+
+  	<div class="container">
+		<h2>Textos!</h2>
+		<h3>.text-muted, .text-pimary, .text-success, .text-info, .text-warning, .text-danger</h3>
+  		<p class="text-muted">Paragrafo estilizado com a classe text-muted</p> 
+  		<p class="text-primary">Paragrafo estilizado com a classe text-primary</p>   
+  		<p class="text-success">Paragrafo estilizado com a classe text-success</p>   
+  		<p class="text-info">Paragrafo estilizado com a classe text-info</p>           
+  		<p class="text-warning">Paragrafo estilizado com a classe text-warning</p>
+  		<p class="text-danger">Paragrafo estilizado com a classe text-danger</p>           
+	</div>
+	
+	<hr/>
+
+    <div class="container">
+    	<h2>Fundos!</h2>
+		<h3>.bg-primary, .bg-info, .bg-warning, .bg-sucess, .bg-danger</h3>
+        <div class="bg-primary">Fundo primary</div>
+        <div class="bg-info">Fundo info </div>
+        <div class="bg-warning">Fundo warning</div>
+        <div class="bg-success">Fundo success</div>
+        <div class="bg-danger">Fundo danger</div>
+    </div>
+	
+	<hr/>
+
+	<div class="container">
+		<h2>Alertas!</h2>
+		<h3>.alert-success, .alert-info, .alert-warning, .alert-danger</h3>
+		<div class="alert alert-success alert-dismissable fade in">
+			<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+			<strong>Success!</strong> Indica sucesso ou ação positiva.
+		</div>
+		<div class="alert alert-info alert-dismissable fade in">
+			<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+			<strong>Info!</strong> Indica informação neutra.
+		</div>
+		<div class="alert alert-warning alert-dismissable fade in">
+			<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+			<strong>Warning!</strong> Indica que algo precisa de atenção.
+		</div>
+		<div class="alert alert-danger alert-dismissable fade in">
+			<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+			<strong>Danger!</strong> Indica perigo ou ação pontencialmente negativa.
+		</div>
+	</div> <!-- ./container -->
+
+	<!-- Alerta fixo (não permite que seja fechado) -->
+	<div class="container" style="margin-top: 100px;">
+	    <div class="alert alert-info">   <!-- info, warning, danger, success -->
+	        <h1>Olá usário Lorem ipsum dolor</h1>
+	        <p style="font-size:18px;">Seja bem-vindo!</p>
+	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt dolorum delectus ad voluptate libero pariatur ipsam quibusdam sequi quam quo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto natus maiores explicabo iusto quam, laborum. Qui molestias natus libero facilis?</p>
+	        <p>Lorem <a href="#" class="alert-link">veja mais</a></p>
+	    </div>
+	</div>
+
+    <script src="_js/jquery.min.js"></script> <!-- jQuery --> 
+    <script src="_bootstrap/js/bootstrap.min.js"></script> <!-- Bootstrap Core JavaScript --> 
+
+</body>
+</html>

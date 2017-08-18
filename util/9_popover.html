@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Oficina dev. Web: Bootstrap</title>
+	<link rel="stylesheet" href="_bootstrap/css/bootstrap.min.css"> 
+</head>
+<body>
+
+	<div class="jumbotron" style="margin-top: 50px;">
+    	<div class="container">
+	        <div class="col-md-4">
+	        	<button class="btn btn-lg btn-primary" data-toggle="popover" data-placement="bottom" data-content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident non, amet tenetur perspiciatis explicabo consequuntur deleniti, soluta totam architecto eum." title="Lorem ipsum dolor sit.">
+			        Clique aqui
+		        </button>
+	        </div>
+
+	        <div class="col-md-7">
+	        	<button class="btn btn-lg btn-info" data-toggle="popover" data-placement="right" data-content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident non, amet tenetur perspiciatis explicabo consequuntur deleniti, soluta totam architecto eum." title="Lorem ipsum dolor sit.">
+			        Clique aqui
+		        </button>
+	        </div>
+		</div> <!-- ./container -->
+    </div>
+
+	<script src="_js/jquery.min.js"></script> 
+	<script src="_bootstrap/js/bootstrap.min.js"></script> 
+
+    <script>
+		$(document).ready(function() {
+		    $('[data-toggle="popover"]').popover();   
+		});
+    </script>
+
+</body>
+</html>

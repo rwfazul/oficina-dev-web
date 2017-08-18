@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Oficina dev. Web: Bootstrap</title>
+    <link href="_bootstrap/css/bootstrap.min.css" rel="stylesheet">  <!-- Bootstrap Core CSS -->
+</head>
+<body>
+    
+    <div class="jumbotron">
+        <div class="container">
+            <h2>Cores</h2>
+            <button class="btn btn-success">Success</button>
+            <button class="btn btn-info">Info</button>
+            <button class="btn btn-warning">Warning</button>
+            <button class="btn btn-danger">Danger</button>
+            <button class="btn btn-primary">Primary</button>
+            <button class="btn btn-default">Default</button>
+            <button class="btn btn-basic">Basic</button>
+            <button class="btn btn-link">Link</button>
+        </div> <!-- /.container -->
+    </div> 
+
+    <div class="jumbotron">
+        <div class="container">
+            <h2>Tamanhos</h2>
+            <button class="btn btn-lg btn-info">Botao large</button> 
+            <button class="btn btn-info">Botao padrao</button>
+            <button class="btn btn-sm btn-info">Botao small</button> 
+            <button class="btn btn-xs btn-info">Botao Xsmall</button>
+        </div> <!-- /.container -->
+    </div> 
+
+    <div class="jumbotron">
+        <div class="container">
+            <h2>Dropdown</h2>
+            <div class="btn-group"> <!-- inserir classe dropup: abre para cima -->
+                <button type="button" class="btn btn-danger">Botao</button>
+                <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown">
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">item1</a></li>
+                    <li><a href="#">item2</a></li>
+                    <li><a href="#">item3</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">item4</a></li>
+                </ul>
+            </div> <!-- ./btn-group -->
+        </div> <!-- ./container -->
+    </div>
+
+    <div class="jumbotron">
+        <div class="container">
+            <h2>Barra de botoes com btn-group</h2>
+            <div class="btn-toolbar">
+                <div class="btn-group btn-group-lg"> 
+                    <button class="btn btn-primary">Meu botao</button> 
+                    <button class="btn btn-primary">Meu botao</button>
+                    <button class="btn btn-primary">Meu botao</button> 
+                    <button class="btn btn-primary">Meu botao</button>
+                </div>    
+            </div> <!-- ./btn-toolbar -->
+        </div> <!-- /.container -->
+    </div> 
+
+    <script src="_js/jquery.min.js"></script> <!-- jQuery --> 
+    <script src="_bootstrap/js/bootstrap.min.js"></script> <!-- Bootstrap Core JavaScript --> 
+
+</body>
+</html>

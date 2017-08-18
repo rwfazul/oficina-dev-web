@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Oficina dev. Web: Bootstrap</title>
+	<link rel="stylesheet" href="_bootstrap/css/bootstrap.min.css"> 
+</head>
+<body>
+	
+    <div class="container jumbotron">	
+        <div id="meuModal" class="modal fade">
+            <div class="modal-dialog"> <!-- modal-dialog modal-sm/modal-lg, ...) -->
+                <div class="modal-content">
+                    <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal"> 
+                              <span aria-hidden="true">&times;</span> 
+                          </button>
+                          <h4 class="modal-title">Titulo do modal</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure esse possimus veniam dicta, maiores. In facilis tempore voluptatum iste ex&hellip;</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary" data-dismiss="modal">Fechar</button>
+                    </div>
+                </div> <!-- /.modal-content -->
+            </div> <!-- /.modal-dialog -->
+        </div> <!-- /.modal -->
+
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#meuModal">Abrir Modal</button> 
+    </div> <!-- ./container -->
+
+	<script src="_js/jquery.min.js"></script> 
+	<script src="_bootstrap/js/bootstrap.min.js"></script> 
+
+</body>
+</html>
