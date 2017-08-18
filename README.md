@@ -1,5 +1,5 @@
 # oficinaDevWeb
-![divulgacao](https://github.com/rwfazul/oficinaDevWeb/blob/master/_imagens/divulgacao.png)
+<img src="https://github.com/rwfazul/oficinaDevWeb/blob/master/_imagens/divulgacao.png" width="70%" height="70%" alt="Oficina Prática" title="Oficina Prática">
 
 Material de apoio para as aulas. 
 
