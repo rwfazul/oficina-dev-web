@@ -22,6 +22,6 @@ Material de apoio para as aulas.
 
 -----------------------------------------------------------------
 
-<img src="https://github.com/rwfazul/oficinaDevWeb/blob/master/_imagens/logo.png" style=" width:100px ; height:100px " alt="PET-SI" title="PET-SI">
+<img src="https://github.com/rwfazul/oficinaDevWeb/blob/master/_imagens/logo.png" style="width:20%;height:20%;" alt="PET-SI" title="PET-SI">
 
 
