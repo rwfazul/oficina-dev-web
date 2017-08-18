@@ -2,12 +2,11 @@
 <p align="center">
 <img src="https://github.com/rwfazul/oficinaDevWeb/blob/master/_imagens/divulgacao.png" width="70%" height="70%" alt="Oficina Prática" title="Oficina Prática">
 </p>
-
-Material de apoio para as aulas. 
-
 -----------------------------------------------------------------
 
 ### Oficina prática de Desenvolvimento Web PET-SI 2017/2
+
+Confira o material de apoio para as aulas!
 
 - [ ] **Aula 1** - 21/08
 	+ HTML + CSS
