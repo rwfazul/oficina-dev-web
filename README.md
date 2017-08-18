@@ -1,5 +1,7 @@
 # oficinaDevWeb
+<p align="center">
 <img src="https://github.com/rwfazul/oficinaDevWeb/blob/master/_imagens/divulgacao.png" width="70%" height="70%" alt="Oficina Prática" title="Oficina Prática">
+</p>
 
 Material de apoio para as aulas. 
 
@@ -21,7 +23,8 @@ Material de apoio para as aulas.
 	+ Finalização blog
 
 -----------------------------------------------------------------
-
+<p align="center">
 <img src="https://github.com/rwfazul/oficinaDevWeb/blob/master/_imagens/logo.png" width="20%" height="20%" alt="PET-SI" title="PET-SI">
+</p>
 
 
