@@ -23,6 +23,10 @@ Nossas Atividades
 		Atividades que fazem a ligação entre o meio acadêmico universitário e os meios e órgãos externos à UFSM.
 
 
+Você tem dúvidas, sugestões ou reclamações?
+
+	Entre em contato
+
 
 Quem Somos?
 
@@ -46,7 +50,9 @@ Membros
 		Site	
 		Facebook
 
-	Tutora
+Tutora
+
+	Nome tutora
 		Email	
 		Site	
 		Facebook
