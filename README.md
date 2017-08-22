@@ -8,8 +8,8 @@
 
 Confira o material de apoio para as aulas!
 
-- [ ] **Aula 1** - 21/08
-	+ HTML + CSS
+- [X] **Aula 1** - 21/08 ***O material/código referente a primeira aula será colocado na pasta "aula1"***
+	+ HTML + CSS 
 - [ ] **Aula 2** - 22/08
 	+ Boostrap 
 - [ ] **Aula 3** - 23/08
