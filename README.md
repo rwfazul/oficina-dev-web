@@ -1,4 +1,8 @@
 # oficinaDevWeb
+
+**Os códigos desenvolvidos na segunda aula podem ser encontrados nas pastas 'dias1-2' e '_css'**
+
+
 <p align="center">
 <img src="https://github.com/rwfazul/oficinaDevWeb/blob/master/_imagens/divulgacao.png" width="70%" height="70%" alt="Oficina Prática" title="Oficina Prática">
 </p>
@@ -9,11 +13,11 @@
 Confira o material de apoio para as aulas!
 
 - [X] **Aula 1** - 21/08 
-	+ HTML + CSS  -> **O material e código fonte referente à primeira pode ser encontrado pasta 'dia1'**
-- [ ] **Aula 2** - 22/08
-	+ Boostrap 
-- [ ] **Aula 3** - 23/08
-	+ Implementação
+	+ HTML 
+- [X] **Aula 2** - 22/08
+	+ CSS  -> **Os códigos desenvolvidos na segunda aula podem ser encontrados nas pastas 'dias1-2' e '_css'**
+- [ ] **Aula 3** - 23/08 
+	+ Bootstrap
 - [ ] **Aula 4** - 28/08
 	+ JavaScript e jQuery
 - [ ] **Aula 5** - 29/08
