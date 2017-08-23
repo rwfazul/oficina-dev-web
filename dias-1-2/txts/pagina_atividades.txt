@@ -1,0 +1,92 @@
+Atividades
+
+Ensino
+
+ 	São desenvolvidas atividades visando proporcionar uma formação acadêmica ampla e variada para os estudantes de graduação, tratando de temas e experiências relacionados à área que muitas vezes não abordados no ambiente de sala de aula.
+
+		 Café com especialista
+
+			Esta atividade ocorre através de encontros em forma de entrevista, onde são convidados profissionais vinculados a Tecnologia da Informação e áreas afins (docentes, empresários, cientistas e etc..), proporcionando aos alunos tomar conhecimento sobre possibilidades quanto ao mercado de trabalho e troca de experiências entre entrevistados e participantes. Este evento ocorre uma vez por semestre, tendo os integrantes do PET-SI como organizadores das entrevistas/encontros viabilizando a vinda de profissionais que atuam na área de Tecnologia da Informação e afins. A atividade segue moldes informais, sendo conduzida na forma de conversa entre entrevistador e entrevistado, havendo a disponibilidade de café para participantes e profissional convidado.
+
+		GAPRO
+
+			A atividade Grupo de Apoio a Programação (GAPro) consiste na apresentação de alguns tópicos relacionados às disciplinas de programação. Como estas disciplinas ocorrem nos primeiros semestres do curso, a atividade possui foco nos alunos de semestres iniciais. Disciplinas de programação são oferecidas para diversos cursos na UFSM (Engenharia Civil, Engenharia Mecânica, Matemática, etc), sendo assim, a atividade contempla não apenas os alunos do curso de Sistemas de Informação, mas também alunos de outros cursos que estejam envolvidos em disciplinas de programação.
+
+
+		Let's Talk English
+
+			Esta atividade visa organizar encontros entre os alunos do curso para desenvolver as habilidades de comunicação na Língua Inglesa. O grupo PET se responsabiliza pela escolha do tema a ser abordado, a mídia a ser utilizada, a tecnologia e as metodologias de apoio necessárias à aprendizagem para alcançar os objetivos do Lets talk in English. Exemplos de eventos incluem: filmes sem legenda; palestras ou aulas narradas em inglês; conteúdos disponíveis na internet; leitura de artigos científicos, debates sobre temas éticos, sóciopolíticos, econômicos e culturais (com conversação em inglês); jogos de integração no idioma, etc.
+
+
+		Oficinas Práticas
+
+			Esta atividade será responsável pela realização de oficinas práticas que explorem temas diversos relacionados à computação. Enquanto os minicursos serão realizados de forma concentrada, as oficinas visarão um desenvolvimento mais a longo prazo, possibilitando que o aluno possa absorver e aprofundar melhor os conteúdos desenvolvidos. Os assuntos a serem tratados nas oficinas envolverão as novidades tecnológicas do momento, visando oferecer ao aluno do curso de Sistemas de Informação uma contribuição na sua capacitação e atualização junto ao mercado de trabalho.
+
+
+		Tutor Júnior
+
+			Nesta atividade os integrantes do PET irão tutorar os alunos ingressantes no curso, acompanhando o seu desenvolvimento durante os seus primeiros semestres na UFSM. No início do semestre haverá uma troca de ideias entre ingressantes e tutores, quando será realizada a apresentação do PET-SI, seus integrantes, atividades e outras informações. Em um segundo encontro, será promovida uma palestra sobre as oportunidades na área de Tecnologia de Informação, como pesquisas, bolsas, e estágios. A palestra será proferida por professores e profissionais da área. Esta atividade tem sido realizada pelo PET-SI desde a sua criação e, para 2017, conta com o desenvolvimento de uma página web para auxiliar na divulgação e acesso às informações pertinentes ao curso de Sistemas de Informação.
+
+
+Pesquisa
+
+	Atividades que visam proporcionar aos bolsistas a oportunidade de integrarem grupos de pesquisa e desenvolverem projetos de iniciação científica, aprofundando os conhecimentos obtidos em sala de aula.
+
+		DivulgaPET
+
+			Esta atividade é responsável pela realização de encontros com pesquisadores que atuam no âmbito de cursos na área da Computação, possibilitando que os mesmos divulguem suas atividades e temas de pesquisa aos alunos do curso de Sistemas de Informação. Além disso, prevê a realização de encontros para discutir pós-graduação em Computação e suas vantagens, alternativas de instituições de ensino e programas para continuar os estudos, estudar no Brasil versus no exterior, assuntos de pesquisas e do cotidiano dos acadêmicos, dentre outros temas de interesse dos alunos da graduação e da pós-graduação. Além do mais, nesta atividade, os petianos participarão na organização das palestras/encontros, viabilizando a vinda de professores e palestrantes de outras instituições, sempre que possível.
+
+
+		Nossas Pesquisas
+
+			Nesta atividade, os bolsistas organizarão e participarão como ouvintes e apresentadores de seminários, onde os alunos da graduação, do próprio grupo PET e da Pós-Graduação serão convidados a apresentar seus trabalhos de pesquisa.
+
+
+		Programa Aprendiz
+
+			Neste programa, os petianos desenvolvem atividades de Iniciação Científica e Tecnológica, principalmente em conjunto com os grupos de pesquisa do Programa de Pós-Graduação em Informática (PPGI) ou com outros grupos de pesquisa de Programas de Pós-Graduação da instituição, se pertinente, sob orientação dos pesquisadores de cada grupo.
+
+
+		Redigindo a Ciência
+
+			Nesta atividade, os petianos desenvolverão a escrita de artigos científicos, relatando as experiências e os resultados obtidos das atividades desenvolvidas pelo programa de Iniciação Científica e Tecnológica, sob orientação dos pesquisadores de cada grupo de pesquisa. Esta atividade visa gerar artigos, seja em português ou em inglês, a partir do conhecimento adquirido na atividade Programa Aprendiz.
+
+
+		SI-Mostra
+
+			Nesta atividade, o PET irá proporcionar um espaço de divulgação dos trabalhos desenvolvidos pelos alunos do curso. Trata-se de uma oportunidade de os alunos de graduação do curso de Sistemas de Informação da UFSM exibirem os trabalhos realizados nas diversas disciplinas do curso.
+
+
+
+Extensão
+
+	Atividades de cunho educativo, onde o grupo PET dissemina seu conhecimento através de ações para com a sociedade.
+
+		Projeto Circulação
+
+			Esta atividade é de participação geral dos grupos PET da Universidade Federal de Santa Maria como forma de conscientizar a comunidade para a doação de sangue, plaquetas e medula óssea. O projeto existe desde 2012 e continua em execução realizando ações de coleta de sangue e cadastro de doadores de medula óssea em parceria com o Hemocentro de Santa Maria, também promove a conscientização pela página no Facebook.
+
+		Doa PET
+
+			Doa PET é uma atividade que será realizada ao longo do ano, juntamente com outras atividades que arrecadem alimentos não perecíveis ou outros materiais úteis. Ao juntarmos quantias significativas de doações, entraremos em contato com instituições necessitadas e realizaremos a entrega dos itens arrecadados. Assim, o grupo PET contribui com a comunidade e fortifica os laços entre a academia e a sociedade.
+
+		Oficina de Jogos Educativos
+
+			Nesta atividade os petianos irão desenvolver oficinas de jogos educativos com foco em lógica de programação. Esta atividade é voltada à comunidade carente externa a UFSM, como creches, centros sociais, lares e escolas. O número de vezes que ela será desenvolvida no ano é definido em parceria com o local escolhido.
+
+		PET Redação
+
+			Nesta atividade, o grupo PET-SI disponibilizará para a comunidade, através de seu site, publicações em texto com um viés tecnológico de forma clara, breve e intuitiva. Tais publicações podem consistir em conhecimentos gerais sobre ferramentas de desenvolvimento de software, novas tecnologias, projetos de pesquisa ou quaisquer outros tipos de conhecimento adquiridos pelo petiano, dentro ou fora do meio acadêmico. Sendo responsável pela implantação da infraestrutura computacional das publicações e também pelas respostas às dúvidas do mesmo, o PET-SI planeja a construção dos artigos com datas de publicação pré-estabelecidas durante o decorrer do ano letivo, onde cada petiano fica responsável por um artigo, escolhendo o tema sobre o qual o mesmo será elaborado.
+
+
+		PET Visita
+
+			PET Visita é uma atividade que será realizada ao longo do ano, onde os petianos irão visitar entidades para realizar atividades de lazer como jogos, leitura de livros, cinema, etc. Esta atividade é voltada à comunidade carente externa a UFSM, como creches, centros sociais, lares e escolas. O tipo de atividade de lazer a ser desenvolvido deve ser definido em parceria com o local escolhido. Durante o ano, serão realizadas atividades que arrecadarão alimentos não perecíveis e outros materiais úteis. Os minicursos e oficinas práticas, por exemplo, arrecadam alimentos com as inscrições. Os alimentos e itens arrecadados serão entregues no momento da realização da visita à entidade selecionada.
+
+
+		UFSM Por um Dia
+
+			Esta atividade será realizada em conjunto com os outros PETs da UFSM e tem por objetivo organizar um encontro com ações interativas para os estudantes de escolas de cidades próximas a Santa Maria. Nesta atividade, alunos do ensino médio participam de um encontro expositivo nas em suas escolas, onde são apresentados os cursos que a UFSM oferece, bem como os grupos PETs e a estrutura da universidade. Esta atividade atuará sobre um público alvo (ensino médio) que poderá futuramente ingressar na graduação, já possuindo certo conhecimento sobre o curso desejado e sobre a instituição.
+
+
+
