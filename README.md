@@ -1,6 +1,6 @@
 # oficinaDevWeb
 
-**Os códigos desenvolvidos na segunda aula podem ser encontrados nas pastas 'dias1-2' e '_css'**
+**Materiais desenvolvidos na segunda aula: pasta '_css', arquivos 'index.html' e 'atividades.html'**
 
 -----------------------------------------------------------------
 ## Dicas para o Sublime (plugins)
@@ -25,7 +25,7 @@ Confira o material de apoio para as aulas!
 - [X] **Aula 1** - 21/08 
 	+ HTML 
 - [X] **Aula 2** - 22/08
-	+ CSS  -> **Os códigos desenvolvidos na segunda aula podem ser encontrados nas pastas 'dias1-2' e '_css'**
+	+ CSS  -> **Materiais desenvolvidos na segunda aula: pasta '_css', arquivos 'index.html' e 'atividades.html'**
 - [ ] **Aula 3** - 23/08 
 	+ Bootstrap
 - [ ] **Aula 4** - 28/08

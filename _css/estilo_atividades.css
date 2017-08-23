@@ -1,0 +1,109 @@
+		body{
+			font-family: 'Open Sans', sans-serif;
+		}
+
+		#logo-pet {
+			float: left;
+			margin-left: 100px;
+			margin-top: 5px;
+		}
+
+		.cabecalho{
+			height: 100px;
+		}
+
+		.menu{
+			float: right;
+		}
+
+		.menu li {
+			display: inline-block;
+			list-style: none;
+			padding-right:  20px;
+			vertical-align: middle;
+		}
+
+		.menu1 {
+			margin-right: 100px;
+			margin-top: 20px;
+		}
+
+		.menu li a {
+		    color: black;
+		    text-align: center;
+		    padding-right:  16px;
+		    text-decoration: none;
+		}
+
+		li a:hover {
+		    color: blue;
+		}
+
+		.titulo{
+			margin: 10px auto 20px;
+			padding: 0 15px;
+			position: relative;
+			text-align: center;
+
+		}
+
+		.container {
+			margin: 20px auto 30px;
+			background-color: #2EA6D2;
+			height: 150px;
+			padding: 10px 70px 10px 100px;
+			color:white;
+		}
+
+		.breadcumb{
+			float:right;
+			display: inline-block;
+		}
+
+		.breadcumb li {
+			display: inline-block;
+			list-style: none;
+			padding-right:  20px;
+			vertical-align: middle;
+		}
+
+		.breadcumb li a {
+		    color: white;
+		    text-align: center;
+		    padding-right:  16px;
+		    text-decoration: none;
+		}
+
+		hr {
+			margin-top: 20px;
+    		margin-bottom: 20px;
+    		border: 1px;
+    		border-top: 1px solid #eee;
+    		box-sizing: content-box;
+		}
+
+		.secao, .footer{
+			margin: 20px 100px 50px 100px;			
+		}
+
+		.secao p, .footer p {
+			color: #727272;
+			text-align: justify;
+		}
+
+		.secao > p{
+			text-align: center;
+		}
+
+		.subtitulo {
+			color: #2EA6D2;
+			font-weight: bold;
+		}
+
+		#logo-footer{
+			float: right;
+		}
+
+		.footer{
+			height: 50px;
+		}
