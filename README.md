@@ -5,12 +5,12 @@
 -----------------------------------------------------------------
 ## Dicas para o Sublime (plugins)
 - Para facilitar escrever caminhos dos arquivos (src de imagens, etc) -> **AutoFileName**
-- Facilitar escrita de marcação e estilo de páginas -> **Emmet***
+- Facilitar escrita de marcação e estilo de páginas -> **Emmet**
 - Auto-complete de clases Bootstrap -> **Bootstrap 3 Autocomplete**
 - Snippets para Boostrap -> **Bootstrap 3 Snippets**
 
-* Alguns outros podem ser encontrados em: http://coral.ufsm.br/pet-si/index.php/porque-utilizar-o-sublime-text/
-* /+ dicas em: http://coral.ufsm.br/pet-si/index.php/5-sites-que-uteis-para-um-programador-web/
+-> Alguns outros podem ser encontrados em: http://coral.ufsm.br/pet-si/index.php/porque-utilizar-o-sublime-text/
+-> + dicas em: http://coral.ufsm.br/pet-si/index.php/5-sites-que-uteis-para-um-programador-web/
 -----------------------------------------------------------------
 <p align="center">
 <img src="https://github.com/rwfazul/oficinaDevWeb/blob/master/_imagens/divulgacao.png" width="70%" height="70%" alt="Oficina Prática" title="Oficina Prática">
