@@ -1,79 +1,91 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-
 	<meta charset="UTF-8">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
-	<link rel="stylesheet" type="text/css" href="_css/estilo_index.css">
+	<link rel="stylesheet" href="_bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="_css/estilo_index.css">
+	<link rel="stylesheet" href="_font-awesome/css/font-awesome.min.css">
 </head>
-
 <body>
+    <!-- MENU -->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Navbar Header -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img class="img-responsive" src="_imagens/logo.png" height="58px" width="159px"/>
+                </a>    
+            </div>
+            <!-- Navbar Collapse -->
+            <div id="menu" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">Inicio</a></li>
+                    <li><a href="#">Publicações</a></li>
+                    <li><a href="#">Redações</a></li>          
+                    <li><a href="#">Atividades</a></li>   
+                    <li><a href="#">Contatos</a></li>   
+                    <li><a href="#">Agenda</a></li> 
+                    <li class="facebook">
+                        <a href="#" target="_blank">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div><!--/.navbar-collapse -->
+        </div> <!-- ./container -->
+    </nav>
 
-<!-- MENU -->
-<div class="cabecalho">
-	<a href="?page=home"><img id="logo-pet" src="http://coral.ufsm.br/pet-si/wp-content/uploads/2016/12/v1_balck-blue-min.png" width="159px" height="58px"></a>
-
-	<div class="menu1">
-		<ul class="menu">
-		  <b>
-		  <li><a href="index.html">Inicio</a></li>
-		  <li><a href="#news">Publicações</a></li>
-		  <li><a href="#contact">Contatos</a></li>
-		  <li><a href="atividades.html">Atividades</a></li>
-		  <li><a href="#about">Agenda</a></li>
-		  <li><a href="https://www.facebook.com/pet.si.ufsm/"><img src="https://www.seeklogo.net/wp-content/uploads/2016/09/facebook-icon-preview-200x200.png" width="45px" height="45px"></a></li>
-		  </b>
-		</ul>
-	</div>'
-</div>
-
-<!-- SLIDER -->
-	<div  class="banner">
+    <!-- SLIDER -->
+	<div class="banner">
 	</div>
 
-
-<!-- NOSSAS ATIVIDADES -->
-<div class="atividades">
+	<!-- NOSSAS ATIVIDADES -->
+	<div class="atividades">
 		<div class="titulo">
 			<h2> Nossas Atividades</h2>
 				<p>O grupo PET-SI promove atividades de ensino, pesquisa e extensão. Aqui você confere algumas das atividades desenvolvidas pelo grupo. </p>
 		</div>
-
 		<div class="item">
 			<a href="#" title="clique e confira nossas atividades de Ensino">
 				<h3>Ensino</h3>
 			</a>
-					<p>Atividades voltadas para o meio acadêmico com intuito pedagógico.</p>
-			
+			<p>Atividades voltadas para o meio acadêmico com intuito pedagógico.</p>
 		</div>
-
 		<div class="item">
 			<a href="#" title="clique e confira nossas atividades de Pesquisa">
 				<h3>Pesquisa</h3>
 			</a>
-					<p>Atividades desenvolvidas com o objetivo de descobrir novos conhecimentos de uma determinada área explorada.</p>
-
+			<p>Atividades desenvolvidas com o objetivo de descobrir novos conhecimentos de uma determinada área explorada.</p>
 		</div>
-
 		<div class="item">
 			<a href="#" title="clique e confira nossas atividades de Extensão">
 				<h3>Extensão</h3>
 			</a>
-					<p>Atividades que fazem a ligação entre o meio acadêmico universitário e os meios e órgãos externos à UFSM.</p>
-		</div>
-</div>
-
-<!-- CONTATO -->
-	<div  class="contato">
-		<div class="overlay">
-		<div class="titulo"><h1>Você tem dúvidas, sugestões ou reclamações?</h1></div>
-
-		<div align="center" ><a href="#" class="botao">Entre em contato</a> </div>
+			<p>Atividades que fazem a ligação entre o meio acadêmico universitário e os meios e órgãos externos à UFSM.</p>
 		</div>
 	</div>
 
-
+	<!-- CONTATO -->
+	<div  class="contato">
+		<div class="overlay">
+			<div class="titulo">
+				<h1>Você tem dúvidas, sugestões ou reclamações?</h1>
+			</div>
+			<div align="center" >
+				<a href="#" class="botao">Entre em contato</a> 
+			</div>
+		</div>
+	</div>
 
 <!-- QUEM SOMOS -->
 	<div  class="quem-somos">
@@ -84,72 +96,74 @@
 
 	</div>
 
-
-<!-- MEMBROS -->
-<div  class="membros">
-	<h2 class="titulo">Membros</h2>
-	<hr>
-
+	<!-- MEMBROS -->
+	<div  class="membros">
+		<h2 class="titulo">Membros</h2>
+		<hr>
 		<div class="item">
-			<img src="_imagens/_avatares/avatar01.png"/> <!-- imagem avatar -->
+			<img src="_imagens/_avatares/avatar01.png"/> 
 			<p>
-				<h5>Aluno 1</h5>
-					<p><a href="mailto:aluno1@inf.ufsm.br" title="aluno1@inf.ufsm.br">Email</a>
-					<a href="http://www.inf.ufsm.br/~a1" title="www.inf.ufsm.br/~a1" target="_blank">Site</a>
-					<a href="https://www.facebook.com/aluno1" target="_blank" title="fb.com/aluno1">Facebook</a></p>
+				<h5>Nome Um</h5>
+				<a href="mailto:#" title="email">Email</a>
+				<a href="#" title="sitePessoal" target="_blank">Site</a>
+				<a href="#" title="facebook" target="_blank">Facebook</a>
 			</p>
 		</div>
-
 		<div class="item">
-			<img src="_imagens/_avatares/avatar02.png"/> <!-- imagem avatar -->
+			<img src="_imagens/_avatares/avatar02.png"/> 
 			<p>
-				<h5>Aluno 2</h5>
-					<p><a href="mailto:aluno2@inf.ufsm.br" title="aluno2@inf.ufsm.br">Email</a>
-					<a href="http://www.inf.ufsm.br/~a2" title="www.inf.ufsm.br/~a2" target="_blank">Site</a>
-					<a href="https://www.facebook.com/aluno2" target="_blank" title="fb.com/aluno2">Facebook</a></p>
+				<h5>Nome Dois</h5>
+				<a href="mailto:#" title="email">Email</a>
+				<a href="#" title="sitePessoal" target="_blank">Site</a>
+				<a href="#" title="facebook" target="_blank">Facebook</a>
 			</p>
 		</div>
-
 		<div class="item">
-			<img src="_imagens/_avatares/avatar03.png"/> <!-- imagem avatar -->
+			<img src="_imagens/_avatares/avatar03.png"/> 
 			<p>
-				<h5>Aluno 3</h5>
-					<p><a href="mailto:aluno3@inf.ufsm.br" title="aluno3@inf.ufsm.br">Email</a>
-					<a href="http://www.inf.ufsm.br/~a3" title="www.inf.ufsm.br/~a3" target="_blank">Site</a>
-					<a href="https://www.facebook.com/aluno3" target="_blank" title="fb.com/aluno3">Facebook</a></p>
+				<h5>Nome Três</h5>
+				<a href="mailto:#" title="email">Email</a>
+				<a href="#" title="sitePessoal" target="_blank">Site</a>
+				<a href="#" title="facebook" target="_blank">Facebook</a>
 			</p>
 		</div>
-
 		<div class="item">
-			<img src="_imagens/_avatares/avatar04.png"/> <!-- imagem avatar -->
+			<img src="_imagens/_avatares/avatar04.png"/> 
 			<p>
-				<h5>Aluno 4</h5>
-					<p><a href="mailto:aluno4@inf.ufsm.br" title="aluno4@inf.ufsm.br">Email</a>
-					<a href="http://www.inf.ufsm.br/~a4" title="www.inf.ufsm.br/~a4" target="_blank">Site</a>
-					<a href="https://www.facebook.com/aluno4" target="_blank" title="fb.com/aluno4">Facebook</a></p>
+				<h5>Nome Quatro</h5>
+				<a href="mailto:#" title="email">Email</a>
+				<a href="#" title="sitePessoal" target="_blank">Site</a>
+				<a href="#" title="facebook" target="_blank">Facebook</a>
 			</p>
 		</div>
-</div>
-<div class="tutora">
+	</div>
 
-	<h2 class="titulo">Tutora</h2>
-	<hr>
+	<!-- TUTORA -->
+	<div class="tutora">
+		<h2 class="titulo">Tutora</h2>
+		<hr>
 		<div class="item">
-			<img src="_imagens/_avatares/avatar05.png"/> <!-- imagem avatar -->
+			<img src="_imagens/_avatares/avatar05.png"/> 
 			<p>
 				<h5>Nome tutora</h5>
-					<p><a href="mailto:tutora@inf.ufsm.br" title="tutora@inf.ufsm.br">Email</a>
-					<a href="http://www.inf.ufsm.br/~tut" title="www.inf.ufsm.br/~tut" target="_blank">Site</a>
-					<a href="https://www.facebook.com/tutora" target="_blank" title="fb.com/tutora">Facebook</a></p>
+				<a href="mailto:#" title="email">Email</a>
+				<a href="#" title="sitePessoal" target="_blank">Site</a>
+				<a href="#" title="facebook" target="_blank">Facebook</a>
 			</p>
 		</div>
-</div>
+	</div>
 
-<!-- FOOTER -->
-<div class="footer">
 
-	<p>© 2017 PET-SI <a id="logo-footer" href="https://www.facebook.com/pet.si.ufsm/"><img src="https://www.seeklogo.net/wp-content/uploads/2016/09/facebook-icon-preview-200x200.png" width="45px" height="45px"></a></p>
+	<!-- FOOTER -->
+	<div class="container footer">
+		<p>© 2017 PET-SI 
+			<a id="logo-footer" href="https://www.facebook.com/pet.si.ufsm/">
+				<img src="https://www.seeklogo.net/wp-content/uploads/2016/09/facebook-icon-preview-200x200.png" width="45px" height="45px">
+			</a>
+		</p>
+	</div>
 
-</div>
+	<script src="_js/jquery.min.js"></script>
+	<script src="_bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>

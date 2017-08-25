@@ -1,6 +1,7 @@
 # oficinaDevWeb
 
-**Materiais desenvolvidos na segunda aula: pasta '_css', arquivos 'index.html' e 'atividades.html'**
+**Materiais terceira aula: arquivos 'index.html' e 'estilo_index.css' (pasta '_css')**<br/>
+Dentro de estilo_index.css existem apenas as classes css referentes ao menu. As demais classes feitas na segunda aula foram apagadas, pois serão refeitas usando Bootstrap na segunda-feira (28/08), assim finalizando a página inicial.
 
 -----------------------------------------------------------------
 ## Dicas para o Sublime (plugins)
@@ -25,13 +26,13 @@ Confira o material de apoio para as aulas!
 - [X] **Aula 1** - 21/08 
 	+ HTML 
 - [X] **Aula 2** - 22/08
-	+ CSS  -> **Materiais desenvolvidos na segunda aula: pasta '_css', arquivos 'index.html' e 'atividades.html'**
-- [ ] **Aula 3** - 23/08 
-	+ Bootstrap
+	+ CSS 
+- [X] **Aula 3** - 23/08 
+	+ Bootstrap -> **Materiais terceira aula: arquivos 'index.html' e 'estilo_index.css' (pasta '_css')**
 - [ ] **Aula 4** - 28/08
-	+ JavaScript e jQuery
-- [ ] **Aula 5** - 29/08
 	+ Implementação
+- [ ] **Aula 5** - 29/08
+	+ JavaScript e jQuery
 - [ ] **Aula 6** - 30/08
 	+ Finalização blog
 
