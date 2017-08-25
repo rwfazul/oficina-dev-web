@@ -1,0 +1,144 @@
+/* MENU */
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navbar-collapse .navbar-nav {
+    margin: 30px 0;
+}
+
+/* correcao altura icone facebook */
+.navbar-collapse .navbar-nav .facebook {
+    margin-top: -10px;
+}
+
+/* altura botao ao colapsar */
+.navbar-toggle {
+    margin: 20px;
+    padding: 15px; 
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #1B1B1B;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+    padding: 9px 17px;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #2EA6D2;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: #2EA6D2;
+    color: #FFF;
+}
+
+/* alinhar icone facebook ao centro quando menu colapsar */
+@media only screen and (max-width : 768px) {
+    .navbar-collapse .navbar-nav .facebook {
+        text-align: center;
+    } 
+}
+
+/* SLIDER */
+
+
+/* ATIVIDADES */
+.atividades {
+    margin: 50px auto;
+}
+
+.atividades a {
+    text-decoration: none;
+}
+
+.icone {
+    float: left;
+    margin: 20px 30px 0 0;
+    padding: 0;
+    width: 40px;
+}
+
+.icone i {
+    font-size: 40px;
+}
+
+.texto-lateral {
+    overflow: hidden;
+}
+
+.texto-lateral h3 {
+    color: #000;
+}
+
+.texto-lateral p {
+    color: #727272;;
+}
+
+/* CONTATO */
+.fundo-fixo {
+    background: url("../_imagens/callout_fundo.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+}
+
+.fundo-fixo .overlay {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+    padding: 100px 0 90px;
+}
+
+.fundo-fixo h2 {
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+/* MEMBROS */
+.superior { 
+    display: inline-block; 
+    color: #5c5c5c; 
+    margin: 5px; 
+}
+
+.superior img {
+    border-radius: 50%; 
+    margin: 10px; 
+    width:150px; 
+    border: solid #2ea6d2; 
+}
+
+.superior img:hover {
+    opacity: .5;
+}
+
+.superior h5 { 
+    font-size: 14pt;
+}
+
+.superior a {
+    margin: 3px;
+}
+
+.equipe .fa, .footer .fa { 
+    font-size: 25px; 
+}
+
+.descricao {
+    color: #727272;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    line-height: 27px;
+    word-wrap: break-word;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+/* FOOTER */
+.footer {
+    border-bottom: 5px solid #2E508A;
+    padding-bottom: 10px;
+}

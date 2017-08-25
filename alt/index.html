@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Oficina dev. Web: Bootstrap</title>
+	<link rel="stylesheet" href="../_bootstrap/css/bootstrap.min.css"> 
+    <link rel="stylesheet" href="../_font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU -->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Navbar Header -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img class="img-responsive" src="../_imagens/logo.png" height="58px" width="159px"/>
+                </a>    
+            </div>
+            <!-- Navbar Collapse -->
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">Inicio</a></li>
+                    <li><a href="#">Publicações</a></li>
+                    <li><a href="#">Redações</a></li>          
+                    <li><a href="#">Atividades</a></li>   
+                    <li><a href="#">Contatos</a></li>   
+                    <li><a href="#">Agenda</a></li> 
+                    <li class="facebook">
+                        <a href="#" target="_blank">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div><!--/.navbar-collapse -->
+        </div> <!-- ./container -->
+    </nav>
+
+    <!-- SLIDER -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="banner">
+                <img src="../_imagens/_banners/banner4.png" height="400px" class="img-responsive">
+            </div>
+        </div>  
+    </div>
+    
+    <!-- NOSSAS ATIVIDADES -->
+    <div class="container atividades">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center"> Nossas Atividades</h1>
+                <p class="text-center">O grupo PET-SI promove atividades de ensino, pesquisa e extensão. Aqui você confere algumas das atividades desenvolvidas pelo grupo. </p>
+            </div>
+        </div>  
+        <div class="row">
+            <div class="col-md-4">
+                <a href="#" title="clique e confira nossas atividades de Ensino">
+                    <div class="icone">
+                        <i class="fa fa-pencil"></i>
+                    </div>
+                    <div class="texto-lateral">
+                        <h3>Ensino</h3>
+                        <p>Atividades voltadas para o meio acadêmico com intuito pedagógico.</p
+                        >
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="#" title="clique e confira nossas atividades de Pesquisa">
+                    <div class="icone">
+                        <i class="fa fa-search"></i>
+                    </div>
+                    <div class="texto-lateral">
+                        <h3>Pesquisa</h3>
+                        <p>Atividades desenvolvidas com o objetivo de descobrir novos conhecimentos de uma determinada área explorada.</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="#" title="clique e confira nossas atividades de Extensão">
+                    <div class="icone">
+                        <i class="fa fa-group"></i>
+                    </div>
+                    <div class="texto-lateral">
+                        <h3>Extensão</h3>
+                        <p>Atividades que fazem a ligação entre o meio acadêmico universitário e os meios e órgãos externos à UFSM.</p>
+                    </div>
+                </a>
+            </div>
+        </div> <!-- ./row -->
+    </div> <!-- ./container -->
+
+    <!-- CONTATO -->
+    <div class="container-fluid fundo-fixo">
+        <div class="row text-center">
+            <div class="overlay">
+                    <h2>Você tem dúvidas, sugestões ou reclamações?</h2>
+                    <a href="#" class="btn btn-lg btn-primary">Entre em contato</a>
+            </div> <!-- ./overlay -->
+        </div> <!-- ./row -->  
+    </div> <!-- ./fundo-fixo --> 
+    
+    <!-- EQUIPE -->
+    <div class="container equipe">
+        <div class="row">
+            <div class="col-xs-12">
+                <br/>
+                <h2 class="text-center">Quem Somos?</h2>
+                <hr/> 
+                <p class="descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae et, pariatur eligendi provident nisi error, mollitia tempore consequatur, quae ullam temporibus laborum amet officia iure, explicabo nesciunt rem! Corporis, nihil magni ab quos eaque illum repellendus architecto consectetur dolor, quisquam laudantium distinctio minima deserunt animi blanditiis, facilis dolorem rem provident. Suscipit possimus blanditiis inventore corporis maxime, eaque dolorem deleniti, id ratione iste libero, tempora sit magnam alias excepturi optio sunt veniam! Optio, molestiae, expedita! Consequuntur voluptas saepe porro illum ea corporis quas sint nemo debitis quis, enim laboriosam, cum dignissimos fugit exercitationem asperiores minima explicabo maxime ipsum doloremque possimus voluptatem.</p> 
+            </div>
+        </div>
+        <br>
+        <!-- EQUIPE -->
+        <div class="row"> 
+            <h2 class="text-center">Membros</h2>
+            <hr/>
+            <div id="membros" class="text-center">
+                <!-- Avatar Um -->
+                <div id="int-1" class ="superior">
+                    <img src="../_imagens/_avatares/avatar01.png"/>
+                    <p class="inf">
+                        <h5>Avatar Um</h5>
+                        <a href="#" title="email">
+                            <i class="fa fa-envelope"></i>
+                        </a>
+                        <a href="#" title="paginaPessoal" target="_blank">
+                            <i class="fa fa-home"></i>
+                        </a>
+                        <a href="#" title="facebook" target="_blank">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </p>
+                </div>  
+                <!-- Avatar Dois -->
+                <div id="int-2" class ="superior">
+                    <img src="../_imagens/_avatares/avatar02.png"/>
+                    <p class="inf">
+                        <h5>Avatar Dois</h5>
+                        <a href="#" title="email">
+                            <i class="fa fa-envelope"></i>
+                        </a>
+                        <a href="#" title="paginaPessoal" target="_blank">
+                            <i class="fa fa-home"></i>
+                        </a>
+                        <a href="#" title="facebook" target="_blank">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </p>
+                </div>  
+                <!-- Avatar Três -->
+                <div id="int-3" class ="superior">
+                    <img src="../_imagens/_avatares/avatar03.png"/>
+                    <p class="inf">
+                        <h5>Avatar Três</h5>
+                        <a href="#" title="email">
+                            <i class="fa fa-envelope"></i>
+                        </a>
+                        <a href="#" title="paginaPessoal" target="_blank">
+                            <i class="fa fa-home"></i>
+                        </a>
+                        <a href="#" title="facebook" target="_blank">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </p>
+                </div>                 
+            </div>    
+            <br/>
+            <!-- Coordenador -->
+            <h2 class="text-center">Tutora</h2>
+            <hr/>  
+            <div id="destaque" class="text-center">
+                <!-- Avatar Treze -->
+                <div id="int-13" class ="superior">
+                    <img src="../_imagens/_avatares/avatar13.png"/>
+                    <p class="inf">
+                        <h5>Avatar Treze</h5>
+                        <a href="#" title="email">
+                            <i class="fa fa-envelope"></i>
+                        </a>
+                        <a href="#" title="paginaPessoal" target="_blank">
+                            <i class="fa fa-home"></i>
+                        </a>
+                        <a href="#" title="facebook" target="_blank">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+                    </p>
+                </div>
+            </div> <!-- ./destaque -->
+        </div> <!-- ./row -->
+    </div> <!-- ./container -->
+
+    <!-- FOOTER -->
+    <div class="container-fluid">
+        <div class="row footer">
+            <div class="col-xs-10 col-sm-11">
+                &copy; 2017 PET-SI     
+            </div>
+            <div class="col-xs-2 col-sm-1">
+                <a href="#">
+                    <i class="fa fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- <a href="#" class="hc_scrollup"><i class="fa fa-chevron-up"></i></a> -->
+
+	<script src="../_js/jquery.min.js"></script> 
+	<script src="../_bootstrap/js/bootstrap.min.js"></script> 
+
+</body>
+</html>
