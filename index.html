@@ -3,13 +3,16 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Oficina dev. Web</title>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
 	<link rel="stylesheet" href="_bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="_css/estilo_index.css">
 	<link rel="stylesheet" href="_font-awesome/css/font-awesome.min.css">
 </head>
 <body>
-    <!-- MENU -->
+
+<header>
+	<!-- MENU -->
     <nav class="navbar navbar-default">
         <div class="container">
             <!-- Navbar Header -->
@@ -44,127 +47,185 @@
                 </ul>
             </div><!--/.navbar-collapse -->
         </div> <!-- ./container -->
-    </nav>
+    </nav> 
 
-    <!-- SLIDER -->
-	<div class="banner">
-	</div>
-
+     <!-- SLIDER -->
+	<div id="banner" class="carousel slide" data-ride="carousel">
+		<!-- indicadores -->
+		<ol class="carousel-indicators">
+			<li data-target="#banner" data-slide-to="0" class="active"></li>
+			<li data-target="#banner" data-slide-to="1"></li>
+			<li data-target="#banner" data-slide-to="2"></li>
+		</ol>
+		<!-- imagens -->
+		<div class="carousel-inner">
+			<div class="item active">
+				<img src="_imagens/_banners/banner1.png" alt="Confira a noticia na integra">
+			</div>
+			<div class="item">
+				<img src="_imagens/_banners/banner2.png" alt="Confira a noticia na integra">
+			</div>
+			<div class="item">
+				<img src="_imagens/_banners/banner3.png" alt="Confira a noticia na integra">
+			</div>
+		</div>
+		<!-- ./controles -->
+		<a class="left carousel-control" href="#banner" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+			<span class="sr-only"> Anterior </span>
+		</a>
+		<a class="right carousel-control" href="#banner" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+			<span class="sr-only"> Próximo </span>
+		</a>
+	</div> <!-- ./carousel -->
+ </header>
+  
+ <main>
 	<!-- NOSSAS ATIVIDADES -->
-	<div class="atividades">
-		<div class="titulo">
-			<h2> Nossas Atividades</h2>
-				<p>O grupo PET-SI promove atividades de ensino, pesquisa e extensão. Aqui você confere algumas das atividades desenvolvidas pelo grupo. </p>
+	<div class="container atividades">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h2>Nossas Atividades</h2>
+				<p>O grupo PET-SI promove atividades de ensino, pesquisa e extensão. Aqui você confere algumas das atividades desenvolvidas pelo grupo.</p>
+			</div>
 		</div>
-		<div class="item">
-			<a href="#" title="clique e confira nossas atividades de Ensino">
-				<h3>Ensino</h3>
-			</a>
-			<p>Atividades voltadas para o meio acadêmico com intuito pedagógico.</p>
-		</div>
-		<div class="item">
-			<a href="#" title="clique e confira nossas atividades de Pesquisa">
-				<h3>Pesquisa</h3>
-			</a>
-			<p>Atividades desenvolvidas com o objetivo de descobrir novos conhecimentos de uma determinada área explorada.</p>
-		</div>
-		<div class="item">
-			<a href="#" title="clique e confira nossas atividades de Extensão">
-				<h3>Extensão</h3>
-			</a>
-			<p>Atividades que fazem a ligação entre o meio acadêmico universitário e os meios e órgãos externos à UFSM.</p>
+		<div class="row">
+			<div class="col-md-4">
+				<a href="#" title="clique e confira nossas atividades de Ensino">
+					<span class="icone">
+						<i class="fa fa-pencil fa-3x"></i>
+					</span>
+					<div class="texto-lateral">
+						<h3>Ensino</h3>
+						<p>Atividades voltadas para o meio acadêmico com intuito pedagógico.</p>
+					</div>
+				</a>
+			</div>
+			<div class="col-md-4">
+				<a href="#" title="clique e confira nossas atividades de Pesquisa">
+					<span class="icone">
+						<i class="fa fa-search fa-3x"></i>
+					</span>	
+					<div class="texto-lateral">
+						<h3>Pesquisa</h3>
+						<p>Atividades desenvolvidas com o objetivo de descobrir novos conhecimentos de uma determinada área explorada.</p>
+					</div>	
+				</a>
+			</div>
+			<div class="col-md-4">
+				<a href="#" title="clique e confira nossas atividades de Extensão">
+					<span class="icone">
+						<i class="fa fa-group fa-3x"></i>
+					</span>
+					<div class="texto-lateral">
+						<h3>Extensão</h3>
+						<p>Atividades que fazem a ligação entre o meio acadêmico universitário e os meios e órgãos externos à UFSM.</p>
+					</div>
+				</a>
+			</div>
 		</div>
 	</div>
 
 	<!-- CONTATO -->
-	<div class="contato">
-		<div class="overlay">
-			<div class="titulo">
-				<h1>Você tem dúvidas, sugestões ou reclamações?</h1>
-			</div>
-			<div align="center" >
-				<a href="#" class="botao">Entre em contato</a> 
+	<div class="container-fluid">
+		<div class="row text-center fundo-fixo">	
+			<div class="overlay">
+				<h2>Você tem dúvidas, sugestões ou reclamações?</h2>
+				<a href="#" class="btn btn-lg btn-primary">Entre em contato</a> 
 			</div>
 		</div>
 	</div>
 
 	<!-- QUEM SOMOS -->
-	<div class="quem-somos">
-		<h2 class="titulo">Quem Somos?</h2>
-		<hr>
-
-			<p>O Programa de Educação Tutorial (PET) é um programa institucional oferecido pelo MEC, onde estudantes de graduação, orientados por um docente, buscam aprimorar os cursos de graduação trabalhando na tríade de ensino, pesquisa e extensão. Os grupos PET tem como alguns de seus objetivos: promover uma formação multidisciplinar, interação entre bolsistas e corpos docente e discente, promover o trabalho e ganho de conhecimento coletivo, além de desenvolver características como proatividade, postura e oratória.</p>
-
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12">
+				<h2 class="text-center">Quem Somos?</h2>
+				<hr>
+				<p class="descricao">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, itaque? Quidem molestiae et voluptatibus cum repellat in omnis, voluptatem inventore id nisi, debitis autem totam dicta. Quisquam vitae ut distinctio voluptas voluptatibus debitis obcaecati molestias ipsam voluptatum. Libero, labore deserunt, hic sunt eius eveniet autem expedita, ea unde, amet facilis.</p>
+			</div>
+		</div>
 	</div>
 
 	<!-- MEMBROS -->
-	<div class="membros">
-		<h2 class="titulo">Membros</h2>
+	<div class="container text-center">
+		<div class="row">			
+		<h2>Membros</h2>
 		<hr>
-		<div class="item">
-			<img src="_imagens/_avatares/avatar01.png"/> 
+		<div class="item-membros">
+			<img src="_imagens/_avatares/avatar01.png" class="img-circle"/> 
 			<p>
 				<h5>Nome Um</h5>
-				<a href="mailto:#" title="email">Email</a>
-				<a href="#" title="sitePessoal" target="_blank">Site</a>
-				<a href="#" title="facebook" target="_blank">Facebook</a>
+				<a href="mailto:#" title="email"><i class="fa fa-envelope fa-2x"></i></a>
+				<a href="#" title="sitePessoal" target="_blank"><i class="fa fa-home fa-2x"></i></a>
+				<a href="#" title="facebook" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
 			</p>
 		</div>
-		<div class="item">
-			<img src="_imagens/_avatares/avatar02.png"/> 
+		<div class="item-membros">
+			<img src="_imagens/_avatares/avatar02.png" class="img-circle"/> 
 			<p>
 				<h5>Nome Dois</h5>
-				<a href="mailto:#" title="email">Email</a>
-				<a href="#" title="sitePessoal" target="_blank">Site</a>
-				<a href="#" title="facebook" target="_blank">Facebook</a>
+				<a href="mailto:#" title="email"><i class="fa fa-envelope fa-2x"></i></a>
+				<a href="#" title="sitePessoal" target="_blank"><i class="fa fa-home fa-2x"></i></a>
+				<a href="#" title="facebook" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
 			</p>
 		</div>
-		<div class="item">
-			<img src="_imagens/_avatares/avatar03.png"/> 
+		<div class="item-membros">
+			<img src="_imagens/_avatares/avatar03.png" class="img-circle"/> 
 			<p>
 				<h5>Nome Três</h5>
-				<a href="mailto:#" title="email">Email</a>
-				<a href="#" title="sitePessoal" target="_blank">Site</a>
-				<a href="#" title="facebook" target="_blank">Facebook</a>
+				<a href="mailto:#" title="email"><i class="fa fa-envelope fa-2x"></i></a>
+				<a href="#" title="sitePessoal" target="_blank"><i class="fa fa-home fa-2x"></i></a>
+				<a href="#" title="facebook" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
 			</p>
 		</div>
-		<div class="item">
-			<img src="_imagens/_avatares/avatar04.png"/> 
+		<div class="item-membros">
+			<img src="_imagens/_avatares/avatar04.png" class="img-circle"/> 
 			<p>
 				<h5>Nome Quatro</h5>
-				<a href="mailto:#" title="email">Email</a>
-				<a href="#" title="sitePessoal" target="_blank">Site</a>
-				<a href="#" title="facebook" target="_blank">Facebook</a>
+				<a href="mailto:#" title="email"><i class="fa fa-envelope fa-2x"></i></a>
+				<a href="#" title="sitePessoal" target="_blank"><i class="fa fa-home fa-2x"></i></a>
+				<a href="#" title="facebook" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
 			</p>
 		</div>
-	</div>
-
-	<!-- TUTORA -->
-	<div class="tutora">
-		<h2 class="titulo">Tutora</h2>
-		<hr>
-		<div class="item">
-			<img src="_imagens/_avatares/avatar05.png"/> 
-			<p>
-				<h5>Nome tutora</h5>
-				<a href="mailto:#" title="email">Email</a>
-				<a href="#" title="sitePessoal" target="_blank">Site</a>
-				<a href="#" title="facebook" target="_blank">Facebook</a>
-			</p>
+		</div> <!-- ./row -->
+		<!-- TUTORA -->
+		<div class="row">
+			<h2>Tutora</h2>
+			<hr>
+			<div class="item-membros">
+				<img src="_imagens/_avatares/avatar05.png" class="img-circle"/> 
+				<p>
+					<h5>Nome tutora</h5>
+					<a href="mailto:#" title="email"><i class="fa fa-envelope fa-2x"></i></a>
+					<a href="#" title="sitePessoal" target="_blank"><i class="fa fa-home fa-2x"></i></a>
+					<a href="#" title="facebook" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+				</p>
+			</div>
 		</div>
-	</div>
+	</div> <!-- ./container -->
+</main>
 
-
+<footer>
 	<!-- FOOTER -->
-	<div class="container footer">
-		<p>© 2017 PET-SI 
-			<a id="logo-footer" href="https://www.facebook.com/pet.si.ufsm/">
-				<img src="https://www.seeklogo.net/wp-content/uploads/2016/09/facebook-icon-preview-200x200.png" width="45px" height="45px">
-			</a>
-		</p>
+	<div class="container-fluid">
+		<div class="row footer text-center">
+			<div class="col-md-2 col-xs-12">
+				&copy; 2017 PET-SI <br/><br/>
+			</div>
+			<div class="col-md-1 col-md-offset-9 col-xs-12">
+				<a href="#">
+					<i class="fa fa-facebook fa-2x"></i>
+				</a>
+			</div>
+		</div>
 	</div>
+    <!-- <a href="#" class="hc_scrollup"><i class="fa fa-chevron-up"></i></a> --> 
+</footer>
 
 	<script src="_js/jquery.min.js"></script>
 	<script src="_bootstrap/js/bootstrap.min.js"></script>
+	
 </body>
 </html>

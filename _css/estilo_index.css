@@ -8,8 +8,8 @@
 }
 
 /* correcao altura icone facebook */
-.navbar-collapse .navbar-nav .facebook {
-    margin-top: -10px;
+    .navbar-collapse .navbar-nav .facebook {
+        margin-top: -10px;
 }
 
 /* altura botao ao colapsar */
@@ -49,9 +49,84 @@
 /* SLIDER */
 
 /* ATIVIDADES */
+.atividades {
+    margin: 50px auto;
+}
+
+.atividades a {
+    text-decoration: none;
+}
+
+.icone {
+    float: left;
+    margin: 20px 30px 0 0;
+}
+
+.texto-lateral {
+    overflow: hidden;
+}
+
+.texto-lateral > h3 {
+    color: #000;
+}
+
+.texto-lateral > p {
+    color: #727272;
+}
 
 /* CONTATO */
+.fundo-fixo {
+    background: url("../_imagens/callout_fundo.jpg") no-repeat fixed center center / cover rgba(0, 0, 0, 0);
+}
+
+.fundo-fixo .overlay {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7);
+    padding: 100px 0 90px;
+}
+
+.fundo-fixo h2 {
+    color: #FFF;
+    margin-bottom: 20px;
+}
 
 /* MEMBROS */
+.descricao {
+    color: #727272;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    line-height: 23px;
+    word-wrap: break-word;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+.item-membros {
+    display: inline-block;
+    margin: 5px;
+}
+
+.item-membros img {
+    margin: 10px;
+    border: solid #2EA6D2;
+    width: 200px;
+}
+
+.item-membros img:hover {
+    opacity: .5;
+}
+
+.item-membros h5 {
+    font-size: 14pt;
+}
+
+.item-membros a {
+    margin: 3px;
+}
 
 /* FOOTER */
+.footer {
+    border-bottom: 5px solid #2E508A;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
