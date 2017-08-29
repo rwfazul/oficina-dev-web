@@ -29,7 +29,7 @@ Confira o material de apoio para as aulas!
 	+ CSS 
 - [X] **Aula 3** - 23/08 
 	+ Bootstrap 
-- [ ] **Aula 4** - 28/08
+- [X] **Aula 4** - 28/08
 	+ Implementação -> **Materiais quarta aula: arquivos 'index.html', 'atividades.html' e estilos da pasta '_css'**
 - [ ] **Aula 5** - 29/08
 	+ JavaScript e jQuery
