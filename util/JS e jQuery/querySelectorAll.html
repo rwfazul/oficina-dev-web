@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div class="teste">conteudo da div 0</div>
+	<div class="teste">conteudo da div 1</div>
+	<div class="teste">conteudo da div 2</div>
+	
+	<div id="pai">
+		<div class="filho">conteudo filho 0</div>
+		<div class="filho">conteudo filho 1</div>
+		<div class="filho">conteudo filho 2</div>
+		<div class="filho">conteudo filho 3</div>
+	</div>
+
+	<script>
+		console.log (
+			document.querySelectorAll(".teste")[0].innerHTML
+		);
+
+		console.log (
+			document.getElementById("pai").getElementsByClassName("filho")[2].innerHTML
+		);
+		// ou
+		console.log (
+			document.getElementById("pai").querySelectorAll(".filho")[3].innerHTML
+		);
+
+		if (document.getElementById("pai").querySelectorAll(".filho").length > 3)
+			console.log("4 ou mais filhos");
+
+		if (!document.getElementById("pai").querySelectorAll(".classQueNaoExiste").length)
+			console.log("Classe nao existe");
+	</script>
+</body>
+</html>

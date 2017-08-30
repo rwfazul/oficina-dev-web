@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div class="js">react</div>
+	<div class="js">angular</div>
+	<div class="js">typescript</div>
+	<div class="js">es6</div>
+	
+	<script>
+		var js = document.getElementsByClassName("js");
+		for (let i = 0; i < js.length; i++){
+			let texto = js[i].innerHTML;
+			js[i].innerHTML =  "curso " + texto + " js";
+		}
+		// foreach  e map so funcionam com array, nao com html collection
+
+		 var array = [1, 2, 'b', 4, 5];
+		 array.forEach(function(element, index) {
+		 	if (element == 2)
+		 		array[index] = "muda";
+		 	console.log(element, index);
+		 });
+
+		 console.log(array);
+
+		 var vetor = ['a', 'd', 'c', 'b', 'e'];
+
+		 var novoArray = vetor.map(function(element, index) {
+		 	if (index == 1) 
+		 		vetor[index] = "muda";	
+		 	if (index == 2)
+		 		element = "novo";
+		 	console.log(element, index);
+
+		 	return element;
+		 });
+
+		 console.log(vetor);
+		 console.log(novoArray);
+		 var i = 0;
+		 while (i++ < novoArray.length) 
+		 	console.log(novoArray[i-1]);
+	</script>
+
+</body>
+</html> 

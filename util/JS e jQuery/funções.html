@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<p id="resul"></p>
+	<script>
+		var p = document.getElementById("resul");
+		function soma(x, y) {
+			return x + y;
+		}
+
+		p.innerHTML = soma(2, 4);
+
+		function novoCarro(a, b, c, d) {
+			var carro = {
+				marca: a,
+				modelo: b,
+				cor: c,
+				ano: d
+			};
+			return carro;
+		}
+
+		console.log(novoCarro("Ford", "Fiesta", "azul", 2017));
+
+		var pessoa = {
+			nome: "Rhau",
+			cpf: 10000000000,
+			rg: 1000000000,
+			nascimento: "xx/xx/xxxx"
+		};
+
+		function alteraPessoa(nome, cpf, rg, nascimento) {
+			pessoa.nome = nome,
+			pessoa.cpf = cpf,
+			pessoa.rg = rg,
+			pessoa.nascimento = nascimento
+		}
+
+		console.log(pessoa);
+		alteraPessoa("Pedro", 10, "10", 100);
+		console.log(pessoa);
+
+		function alteraPessoa2(objPessoa) {
+			pessoa = objPessoa;
+			return objPessoa;
+		}		
+		console.log( alteraPessoa2({nome: "Rhau", cpf: 100000000000, rg: 1000000000, nascimento: "xx/xx/xxxx"}) );
+
+		function criaPessoa(objPessoa) {
+			if (typeof objPessoa == 'object') {
+				pessoa = objPessoa;
+				return true;
+			} 
+			return false;
+		}
+
+		if ( criaPessoa("blablabla") )
+			console.log("Nova pessoa add");
+		else
+			console.log ("Falha ao criar nova pessoa");
+
+
+		function testaParametros() {
+			console.log(arguments[0]);
+			return true;
+		}
+	</script>
+</body>
+</html>

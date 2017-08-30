@@ -1,0 +1,235 @@
+@charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0 auto;
+	font: 13px Verdana, Geneva, sans-serif;
+	background-color: #F5F5F5;
+	color: #999;
+}
+
+header, nav, section, article, footer, aside {
+	display: block;
+}
+
+a {
+	color: #999;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #34ABE0;
+}
+
+header h1 {
+	font-size: 30px;
+	line-height: 40px;
+	padding: 20px 0;
+	margin-top: 20px;
+}
+
+header.topo hgroup {
+	float: left;
+}
+
+header.topo hgroup h1 {
+	margin-bottom: -20px;
+	color: black;
+}
+
+header.topo figure.logo {
+	float: left;
+	margin-bottom: 30px;
+	margin-right: 30px;
+}
+
+header.topo figure.logo img {
+	height: 120px;
+	width: 120px;
+	margin-top: 20px;
+}
+
+div.menu {
+	clear: both;
+	height: 30px;
+	background-color: blue;
+	min-width: 940px;
+}
+
+.menu-fixo {
+	position: fixed;
+	top: 0;
+	z-index: 999; /* nenhum elemento fica na frente */
+	width: 100%;
+}
+
+div.topo, div.corpo {
+	width: 940px;
+	height: 173px;
+	margin: 0 auto;
+}
+
+nav {
+	margin: 0 auto;
+	width: 940px;
+}
+
+nav ul {
+	list-style: none;
+	clear: both;
+	color: white;
+	margin: 0 auto;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	display: block;
+	height: 30px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 14px;
+	line-height: 30px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+}
+
+nav ul li a:hover {
+	color: #34ABE0;
+}
+
+nav ul li a.selecionado {
+	background-color: #34ABE0;
+	margin-left: 10px;
+	color: #FFF;
+	height: 25px;
+	line-height: 25px;
+	margin-top: 2px;
+	margin-left: 0px;
+}
+
+section#intro {
+	width: 940px;
+	height: 235px;
+	background: url("../_img/intro_bg.png") right top no-repeat #DDEEEE;
+	margin-top: 60px;
+	padding-left: 10px;
+}
+
+section#intro p {
+	width: 600px;
+	padding-top: 35px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 16px;
+	color: #34A8E0;	
+}
+
+section#intro hgroup h1 {
+	font-size: 24px;
+	text-align: left;
+	line-height: 40px;
+	color: #999;
+}
+
+section#intro hgroup h2 {
+	font-size: 20px;
+	line-height: 30px;
+	font-style: italic;
+	color: #999;	
+}
+
+article {
+	width: 620px;
+	float: left;
+}
+
+article p {
+	width: 610px;
+	margin-bottom: 10px;
+	padding-right: 10px;
+}
+
+article header p {
+	font-size: 15px;
+	line-height: 30px;
+	font-style: italic;
+	margin-bottom: 0px;
+}
+
+article header h1 {
+	font-size: 20px;
+	text-align: left;
+	line-height: 40px;
+	margin-top: 20px;
+	padding: 0;
+	text-transform: uppercase;
+	color: black;
+}
+
+aside {
+	float: left; /* right */
+	width: 280px;
+	padding-left: 40px;
+}
+
+aside section {
+	margin-top: 35px;
+	padding: 10px;
+	background-color: #EEE;
+}
+
+aside section h1 {
+	margin-bottom: 10px;
+	font-size: 16px;
+	color: #000;
+}
+
+aside ul {
+	list-style: none;
+}
+
+aside ul li {
+	margin-left: 20px;
+}
+
+aside ul li a {
+	color: #999;
+	text-decoration: none;
+}
+
+aside ul li a:hover {
+	text-decoration: underline;
+	color: #34ABE0;
+}
+
+footer {
+	clear: both;
+	color: black;
+}
+
+footer.rodape {
+	width: 920px;
+	float: left;
+	margin: 0 auto;
+	margin-top: 35px;
+	padding: 10px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: #EEE;
+	text-align: center;
+}
+
+footer.rodape p {
+	margin-bottom: 10px;
+	font-size: 16px;
+}

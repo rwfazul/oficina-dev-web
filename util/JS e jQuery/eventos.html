@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		/* tbody > tr:hover {
+			background-color: #CCC;
+		} */
+
+		.red {
+			color: red;
+		}
+
+		.blue {
+			background-color: blue;
+		}
+	</style>
+</head>
+<body>
+	<h4 id="title">Meu botão</h4>
+	<button id="btn">Click-me!</button>
+
+	<a href="#" id="link">
+		<h1>Hello World!</h1>
+	</a>		
+
+	<table style="width: 100%;">
+		<thead>
+			<th align="left">Nome</th>
+			<th align="left">Idade</th>
+		</thead>		
+		<tbody>
+			<tr class="tr">
+				<td style="height: 30px;">Pedro</td>
+				<td style="height: 30px;">25</td>
+			</tr>
+			<tr class="tr">
+				<td style="height: 30px;">Paulo</td>
+				<td style="height: 30px;">32</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<select id="linguagens">
+		<option value="1">PHP</option>
+		<option value="2">JavaScript</option>
+		<option value="3">Java</option>
+		<option value="4">C#</option>
+	</select>
+
+	<script> //onload
+		window.onload = function() {	
+			console.log("A página foi carregada");
+		};
+		console.log("Pagina carregando...");
+	</script>	
+	<script> //click
+		var botao = document.getElementById("btn"); 
+		var title = document.getElementById("title");
+
+		botao.addEventListener("click", function() { // addEventListener funciona com elements. parametros: (nomeEvento, acao)
+			alert("Botao clicado! Título irá sumir.");
+			title.remove();
+		}); 
+	</script>	
+	<script>  // mouseover (em jQuery eh hover)
+		var link = document.getElementById("link");
+		var trs  = document.getElementsByClassName("tr");
+
+		link.addEventListener("mouseover", function() {
+			link.classList.add("red");
+		});
+
+		link.addEventListener("mouseleave", function() {
+			link.classList.remove("red");
+		});
+
+		for (var i = 0; i < trs.length; i++) {
+			trs[i].addEventListener("mouseover", function() {
+				this.classList.add("blue");
+			});
+			
+			trs[i].addEventListener("mouseleave", function() {
+				this.classList.remove("blue");
+			});
+		}
+	</script> 
+	<script> // change
+		var linguagens = document.getElementById("linguagens");
+		linguagens.addEventListener("change", function() {
+			// console.log(this.value);
+			// console.log(this.options);
+			// console.log(this.selectedIndex);
+
+			/* var options = this.options;
+			var itemAtual = this.selectedIndex;
+			console.log(options[itemAtual]); */
+
+			console.log( this.options[this.selectedIndex] );
+		});
+	</script>
+</body>
+</html>

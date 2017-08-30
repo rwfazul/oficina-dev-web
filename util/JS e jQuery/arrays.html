@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script> // util: metodo join une todos elementos do array em uma so string. parametro: array.join(separador (ex: ,));
+		var array = [];
+		console.log(typeof array, array, array.length);
+
+		var vetor = ["Rhau", 12, true, 12.5, {item: "valor", item2: "valor"}];
+		console.log(vetor[4].item);
+
+		var frutas, text;
+		frutas = [
+			"Banana",
+			"Laranja",
+			"Maça",
+			"Morango"
+		];
+		text = "<ul>\n";
+		for (let i = 0; i < frutas.length; i++) 
+			text += "\t<li>" + frutas[i] + "</li>\n";
+		text += "</ul>";
+		console.log(text);
+
+		frutas.push("Pêra");
+		frutas[frutas.length] = "Limão";
+		console.log(frutas);
+
+		frutas.pop();
+		console.log(frutas);
+		frutas.splice(0, 1); // index, qtd 
+		console.log(frutas);
+	</script>
+</body>
+</html>

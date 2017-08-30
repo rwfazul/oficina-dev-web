@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div id="linux">
+		<div class="ubuntu">
+			Ubuntu
+			<div class="elementaryos">Elementary OS</div>
+		</div>
+		<div class="debian">Debian</div>
+	</div>	
+	
+
+	<script>
+		console.log (
+			document.querySelector(".elementaryos").parentNode, // retorna nodeList
+			document.querySelector(".elementaryos").parentNode.parentNode,
+			document.querySelector(".elementaryos").parentNode.parentNode.parentNode.tagName,
+			document.querySelector(".elementaryos").parentNode.parentNode.parentNode.parentNode.tagName,
+		);
+	</script>
+</body>
+</html>

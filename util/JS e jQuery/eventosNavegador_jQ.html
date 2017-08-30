@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="_jquery/jquery.js"></script>
+	<script src="_jquery/eventosNavegador_jQ.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<style>
+		.jumbotron {
+			background-color: #FFF;
+		}
+	</style>
+</head>
+<body>
+	<nav id="nav" class="navbar navbar-inverse navbar-fixed-top"> <!-- navbar-fixed-bottom -->
+	    <div class="container-fluid">
+	        <div class="navbar-header">
+	            
+	        </div>
+	        <button class="btn btn-default navbar-btn">My Button</button>
+	        <a href="#" class="navbar-link">Click Here</a>
+	        <span class="navbar-text">Lorem ipsum dolor sit amet.</span>
+	        <div class="navbar-right">
+	            <form action="#" class="navbar-form"> <!-- ou por pull-right -->
+	                <input type="text" placeholder="Type here" class="form-control">
+	            </form>
+	        </div>
+	    </div>
+	</nav>
+
+	
+	<div class="container">
+		<div class="jumbotron">
+			<img src="_img/play.png" alt="play"> 
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="jumbotron">
+			<img src="_img/img1.jpg" onerror="defaultImage(this);" alt="img1"> <!-- iria aparecer img quebrada, img1.jpg nao existe -->
+		</div>
+	</div>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

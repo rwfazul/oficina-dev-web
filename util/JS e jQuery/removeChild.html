@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+	<div id="carros">
+		<p id="corsa">Corsa</p>
+	</div>
+
+	<script>
+		var carro1 = document.createElement("p");
+		var carro2 = document.createElement("p");
+		carro1.innerHTML = "Gol";
+		carro2.innerHTML = "Fiesta";
+		
+		var carros = document.getElementById("carros");
+		carros.appendChild(carro1);
+		carros.appendChild(carro2);
+
+		carros.removeChild(carro2); 
+		carros.removeChild( document.getElementById("corsa") );
+	</script>
+</body>
+</html>

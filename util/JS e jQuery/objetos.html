@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+	<script>
+		var pessoa = {
+			nome: "Rhau",
+			cpf: 10000000000,
+			rg: 1000000000,
+			nascimento: "xx/xx/xxxx",
+		};
+		console.log(typeof pessoa, pessoa, pessoa.nome);
+
+		var carro = {
+			placa: "ADD-4423",
+			modelo: "Sedã",
+			marca: "Hyunday",
+			opicionais: {
+				cambio: "aut.",
+				combustivel: "flex",
+				extra: {
+					cor: "azul"
+				}
+			},
+			"nome com-espaco": "lorem", // e hifen
+			com_hifen: "ok" 
+		};
+
+		console.log(carro, carro.opicionais.extra.cor, carro["nome com-espaco"]);
+		console.log(carro.com_hifen);
+	</script>
+</body>
+</html>

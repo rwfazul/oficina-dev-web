@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+		console.log (
+			document.createElement("div")
+		);
+
+		var img = document.createElement("img");
+		img.src = "http://lorempixel.com/400/200/";  // lorem pixel
+
+		var p = document.createElement("p");
+		p.innerHTML = "Conteudo do paragrafo";
+		p.id = "meu-id"; // p.setAttribute("id","yourId")
+		p.className= "minha-class";
+
+		console.log (
+			img, p, p.innerHTML
+		);
+	</script>
+</body>
+</html>

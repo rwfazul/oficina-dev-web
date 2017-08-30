@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="_jquery/jquery.js"></script>
+	<script>
+		/* 
+			$("h1").css("color", "#CCC");
+			$("h1").hide();
+			// $("h1").delay("1000");
+			$("h1").fadeIn("slow");
+			$("h1").text("Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, iure."); 
+		*/
+		// $("h1").css("color", "#CCC").hide().fadeIn("slow").text("Lorem ipsum.");
+		$(document).ready(function() {
+			$("h1")
+				.css("color", "#CCC") // #C30
+				.hide().fadeIn("slow")
+				.text("Lorem ipsum.")
+				.click(function() {
+					$("body").css("background", "red");
+					$(this).css("color", "#FFF");
+				});
+
+			// $("a").css({color:"red", display:"block"});
+			$("a").css({
+				color: "red", 
+				display: "block",
+				textDecoration: "none" // ou "text-decoration"
+			});
+			$("#idLink2").css("color", "green");
+			$(".linkClass").css("color", "#A0F");
+			$("*").css("padding", "5px");
+			$("h1, #idLink2").css("border-bottom", "solid 3px blue");
+		});
+	</script>
+
+</head>
+<body>
+
+	<h1></h1>
+	
+	<a href="#">Link 1</a>
+	<a href="#" class="linkClass">Link 3 - class</a>
+	<a href="#" class="linkClass">Link 4 - class</a>
+	<a href="#" id="idLink2">Link 2 - id</a>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+	<div id="div-1">Div com id 1</div>
+	<div class="div-class">Primeira div com class</div>
+	<div class="div-class">Segunda div com class</div>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias natus fuga repellendus numquam quasi nulla.</p>
+	<p class="subl-class">Lorem ipsum dolor sit amet.</p>
+	<p id="cod" class="subl-class">Lorem ipsum dolor.</p>
+	<p id="cod" class="subl-class">Lorem ipsum dolor sit amet.</p>
+
+	<script>
+		console.log ( // pra acessar id eh um pouco + lento que getElementById
+			document.querySelector("#div-1").innerHTML
+		);
+
+		console.log (
+			document.querySelector(".div-class").innerHTML // so retorna o primeiro
+		);
+
+		console.log (
+			document.querySelector("p")
+		);
+
+		console.log (
+			document.querySelector("p.subl-class").innerHTML
+		);
+
+		console.log (
+			document.querySelector("p#cod.subl-class").innerHTML
+		);
+	</script>
+</body>
+</html>
