@@ -1,7 +1,8 @@
 # oficinaDevWeb
 
-**Materiais quarta aula: arquivos 'index.html', 'atividades.html' e estilos da pasta '_css'**
-Foi finalizada a página inicial do site e dado início a página de atividades.
+**Quinta aula**<br/>
+Foi finalizada a página atividades e contato (html e css) e feita a introdução ao JavaScript.<br/>
+Na sexta aula será introduzido o jQuery e finalizado o projeto.
 
 -----------------------------------------------------------------
 ## Dicas para o Sublime (plugins)
@@ -30,11 +31,11 @@ Confira o material de apoio para as aulas!
 - [X] **Aula 3** - 23/08 
 	+ Bootstrap 
 - [X] **Aula 4** - 28/08
-	+ Implementação -> **Materiais quarta aula: arquivos 'index.html', 'atividades.html' e estilos da pasta '_css'**
-- [ ] **Aula 5** - 29/08
-	+ JavaScript e jQuery
+	+ Implementação 
+- [X] **Aula 5** - 29/08
+	+ JavaScript 
 - [ ] **Aula 6** - 30/08
-	+ Finalização blog
+	+ jQuery e Finalização blog
 
 -----------------------------------------------------------------
 <p align="center">
