@@ -46,10 +46,7 @@
     } 
 }
 
-form .container {
-    margin-top: 30px;
-}
-
+/* PAGE TITLE */
 .page-title-section {
     background-color: #2EA6D2;
 }
@@ -94,11 +91,23 @@ form .container {
     float: right;
 }
 
+/* SEÇÕES */
+.secao {
+    margin-top: 40px;
+}
+
+.descricao {
+    color: #727272;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    line-height: 23px;
+    margin: 25px 0;
+}
+
 /* FOOTER */
 .footer {
     border-bottom: 5px solid #2E508A;
     padding-bottom: 10px;
     margin-top: 30px;
 }
-
-
