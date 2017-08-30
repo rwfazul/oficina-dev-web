@@ -1,0 +1,106 @@
+/* MENU */
+.navbar {
+    margin-bottom: 0px;
+}
+
+.navbar-collapse .navbar-nav {
+    margin: 30px 0;
+}
+
+/* correcao altura icone facebook */
+.navbar-collapse .navbar-nav .facebook {
+    margin-top: -10px;
+}
+
+/* altura botao ao colapsar */
+.navbar-toggle {
+    margin: 20px;
+    padding: 15px; 
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #1B1B1B;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    border-radius: 5px;
+    padding: 9px 17px;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #2EA6D2;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: #2EA6D2;
+    color: #FFF;
+}
+
+/* alinhar icone facebook ao centro quando menu colapsar */
+@media only screen and (max-width : 768px) {
+    .navbar-collapse .navbar-nav .facebook {
+        text-align: center;
+    } 
+}
+
+.page-title-section {
+    background-color: #2EA6D2;
+    margin-bottom: 50px;
+}
+
+.page-title-section .overlay {
+    padding: 50px 0 48px;
+    position: relative;
+}
+
+.page-title h1 {
+    color: #ffffff;
+    margin: 0 0 20px;
+}
+
+.page-breadcrumb {
+    list-style: none outside none;
+    margin-bottom: 0px;
+    padding: 10px 0;
+    font-family: 'Open Sans';
+    text-align: right;
+    font-size: 15px;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+.page-breadcrumb > li {
+    display: inline-block;
+    padding: 0 10px;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.page-breadcrumb > li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Formulário */
+
+.col-md-8.col-md-offset-2.well{
+    padding: 30px;
+}
+
+.fa.fa-envelope {
+    float:right;    /* Alinhar o envelope à direita */
+}
+
+
+/* FOOTER */
+.footer {
+    border-bottom: 5px solid #2E508A;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+
+

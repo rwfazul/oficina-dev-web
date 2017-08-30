@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contato</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+    <link rel="stylesheet" href="_bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="_css/estilo_contato.css">
+    <link rel="stylesheet" href="_font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- MENU -->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Navbar Header -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img class="img-responsive" src="_imagens/logo.png" height="58px" width="159px"/>
+                </a>    
+            </div>
+            <!-- Navbar Collapse -->
+            <div id="menu" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#">Publicações</a></li>
+                    <li><a href="#">Redações</a></li>          
+                    <li><a href="atividades.html">Atividades</a></li>   
+                    <li class="active"><a href="contato.html">Contato</a></li>   
+                    <li><a href="#">Agenda</a></li> 
+                    <li class="facebook">
+                        <a href="#" target="_blank">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div><!--/.navbar-collapse -->
+        </div> <!-- ./container -->
+    </nav>
+
+    <!-- PAGE-TITLE -->
+    <div class="page-title-section">
+    	<div class="overlay">
+    		<div class="container">
+    			<div class="row">
+    				<div class="col-md-6">
+    					<div class="page-title"><h1>Contato</h1></div>
+    				</div>
+    				<div class="col-md-6">
+    					<ul class="page-breadcrumb">
+    						<li><a href="#">Início</a></li>
+    						/
+    						<li class="active">Contato</li>
+    					</ul>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <!-- CONTATO -->
+    <div class="container">
+    	<div class="row">
+          <div class="col-md-8 col-md-offset-2 well">
+            <form> <!-- O form possui um atributo action que especifica a página que irá tratar o formulário -->
+                <legend>Entre em contato conosco<i class="fa fa-envelope"></i></legend>
+
+                <div class="form-group"> <!-- Classes bootstrap para customização do input -->
+                    <label for="email" class="control-label">Endereço de e-mail</label>
+                    <input type="email" class="form-control" placeholder="Digite aqui o seu endereço de e-mail" required id="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="assunto" class="control-label">Assunto</label>
+                    <textarea class="form-control" placeholder="Digite aqui o assunto de sua mensagem" required id="assunto"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensagem" class="control-label">Mensagem</label>
+                    <textarea class="form-control" id="mensagem" placeholder="Digite aqui a sua mensagem" rows=7 required id="mensagem"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<!-- FOOTER -->
+<footer>
+    <!-- FOOTER -->
+    <div class="container-fluid">
+        <div class="row footer text-center">
+            <div class="col-md-2 col-xs-12">
+                &copy; 2017 PET-SI <br/><br/>
+            </div>
+            <div class="col-md-1 col-md-offset-9 col-xs-12">
+                <a href="#">
+                    <i class="fa fa-facebook fa-2x"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="_js/jquery.min.js"></script>
+<script src="_bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
