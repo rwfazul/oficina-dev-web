@@ -1,8 +1,6 @@
 # oficinaDevWeb
 
-**Quinta aula**<br/>
-Foi finalizada a página atividades e contato (html e css) e feita a introdução ao JavaScript.<br/>
-Na sexta aula será introduzido o jQuery e finalizado o projeto.
+Arquivos e materiais utilizados durante a Oficina Prática de Desenvolvimento Web promovida pelo PET-SI nos dias 21 à 30 de agosto de 2017.
 
 -----------------------------------------------------------------
 ## Dicas para o Sublime (plugins)
@@ -10,6 +8,7 @@ Na sexta aula será introduzido o jQuery e finalizado o projeto.
 - Facilitar escrita de marcação e estilo de páginas -> **Emmet**
 - Auto-complete de classes Bootstrap -> **Bootstrap 3 Autocomplete**
 - Snippets para Boostrap -> **Bootstrap 3 Snippets**
+- "the most epic theme for Sublime Text 3" -> **Material Theme**
 
 * Alguns outros podem ser encontrados em: http://coral.ufsm.br/pet-si/index.php/porque-utilizar-o-sublime-text/
 * Mais dicas em: http://coral.ufsm.br/pet-si/index.php/5-sites-que-uteis-para-um-programador-web/
@@ -34,8 +33,8 @@ Confira o material de apoio para as aulas!
 	+ Implementação 
 - [X] **Aula 5** - 29/08
 	+ JavaScript 
-- [ ] **Aula 6** - 30/08
-	+ jQuery e Finalização blog
+- [X] **Aula 6** - 30/08
+	+ jQuery e Finalização do site/blog
 
 -----------------------------------------------------------------
 <p align="center">
