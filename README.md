@@ -34,7 +34,7 @@ Confira o material de apoio para as aulas!
 - [X] **Aula 5** - 29/08
 	+ JavaScript 
 - [X] **Aula 6** - 30/08
-	+ jQuery e Finalização do site/blog
+	+ jQuery e finalização do site/blog
 
 -----------------------------------------------------------------
 <p align="center">
